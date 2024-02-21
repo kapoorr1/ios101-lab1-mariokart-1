@@ -35,7 +35,7 @@ class ViewController: UIViewController,
   @IBAction func didDoubleTapKart(_ sender: UITapGestureRecognizer) {
     // Exercise 1: Move the kart forward past the edge of the screen
     // Tip: Use the `translate` function below
-    // YOUR CODE HERE
+      translate(kart: sender.view, by: view.frame.width)
     
     // Exercise 6: Move the kart back to its original position after you've moved it off the screen
     // Tip: Change your usage of the `translate` function to
